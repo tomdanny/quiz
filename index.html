@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Welcome to my Quiz</h1>
+  <div id="quizContent" class="row quiz">
+    <div class="col-sm-12">
+      <h2 id="quizHeader"></h2>
+    </div>
+  
+    <div id="questions" class="row">
+
+      <div class="col-sm-6"><a data-id="1" class="btn btn-default answer"></a></div>
+      <div class="col-sm-6"><a data-id="2" class="btn btn-default answer"></a></div>
+      <div class="col-sm-6"><a data-id="3" class="btn btn-default answer"></a></div>
+      <div class="col-sm-6"><a data-id="4" class="btn btn-default answer"></a></div>
+
+    </div>
+  </div>
+  <div class="row pageMovement">
+    <div id="btnPrevious" class="col-xs-5 col-sm-4 btn btn-primary">
+      Previous
+    </div>
+    <div id="btnNext" class="col-xs-5 col-sm-4 col-sm-offset-4 col-xs-offset-2 btn btn-primary">
+      Next
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
